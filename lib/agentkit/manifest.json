@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agrello",
+      "description": "Connect AI agents to Agrello using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agrello/SKILL.md": "9dab32bb4f3b86f3d92182aea14c72d0185f88311e00fbdaf7b0744671458328"
+  }
+}
