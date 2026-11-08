@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "482dd94e37adb7142d03b147bfc4a2274efabab5721761d75479b3f07e16dd3f",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agrello.io/public/api-docs/v3"
+  ],
+  "id": "agrello-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agrello MCP setup and connection checker",
+  "description": "Generate Agrello MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agrello",
+  "appName": "Agrello",
+  "providerDocs": "https://api.agrello.io/public/api-docs/v3",
+  "providerWebsite": "https://www.agrello.io/",
+  "authentication": {
+    "type": "oauth2_client_credentials",
+    "requiredCredentialFields": [
+      "client_id",
+      "client_secret"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.agrello.io/en/developers/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agrello-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
